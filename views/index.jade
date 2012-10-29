@@ -1,5 +1,46 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	nav#sub
+		ul(class="tabbed")
+			li(class="current-tab") 
+				a(href="#") Create a Speaker
+			li 
+				a(href="#") Find a Speaker
+			li 
+				a(href="#") Popular Speakers
+			li 
+				a(href="#") Why Join?		
+		div(class="clearer") &nbsp;
+	div#splash
+		section(class="col3 left")
+			h2(class="label label-green") Mission Statement
+			p(class="quiet large")
+				| Connecting you with your attendees, one talk at a time
+			p Vestibulum eu pellentesque ante. Sed tincidunt quam eu nisl luctus id mattis tellus rhoncus.
+			p Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec dapibus eros vitae nibh venenatis faucibus.
+			p 
+				a(href="#", class="more") Learn more &raquo;
+		section(class="col3-mid left")
+			h2(class="label label-orange") Next Session
+			p(class="quiet large") 
+				| Friday, November 18, 2012
+			p 
+				img(src="images/sample-event.jpg", width="240", height="80", alt="Event Photo", class="bordered")
+			p 
+				em 
+					| Aliquam augue neque, rhoncus et dictum in, cursus eget mauris.
+		section(class="col3 right")
+			h2(class="label label-blue") Follow Us
+			p(class="quiet large") 
+				a(href="http://twitter.com/faceplantapp") http://twitter.com/faceplantapp
+			p Nulla mollis sollicitudin nulla et mattis. 
+				span(class="quiet") (2 hours ago)
+			p Torquent per conubia nostra, per inceptos himenaeos. 
+				span(class="quiet") (2 hours ago)
+			p In sed ante at velit hendrerit blandit a et nibh. Cras sed cursus nulla. 
+				span(class="quiet") (3 hours ago)
+			p Nullam vitae mi at nulla blandit. 
+				span(class="quiet") (5 hours ago)
+	div(class="clearer") 
+		&nbsp;

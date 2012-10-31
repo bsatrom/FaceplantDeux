@@ -507,11 +507,6 @@ fieldset ul {
 	width: 90%;
 }
 
-fieldset ul li label {
-	float: left;
-	width: 150px;
-}
-
 .k-editor {
 	width: 600px !important;
 }

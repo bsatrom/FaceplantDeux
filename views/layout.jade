@@ -18,7 +18,7 @@ html
 					hgroup(class="left")
 						h1
 							a(href="/") 
-								img(src="images/QuoteFaces.png", id="siteLogo", alt="Logo")
+								img(src="/images/QuoteFaces.png", id="siteLogo", alt="Logo")
             
 				nav(id="main", class="left")
 					ul(class="tabbed")
@@ -40,7 +40,7 @@ html
 			block content
 			footer
 				div#footer-left(class="left")
-					img(src="images/logo-small.png", alt="Small Logo", class="left")
+					img(src="/images/logo-small.png", alt="Small Logo", class="left")
 					p
 						&copy; 2009-2011 Carrot Pants Studios. All rights Reserved
 					p(class="quiet")
@@ -61,7 +61,8 @@ html
 						a(href="/account") Sign Up! 
 						span(class="text-separator") |
 						a(href="#top", class="quiet" ) Page Top &uarr;
-				div(class="clearer">
+				div(class="clearer")
 					&nbsp;
 			script(src="/javascripts/jquery.min.js")
 			script(src="/javascripts/kendo.all.min.js")
+			block scripts

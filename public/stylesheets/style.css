@@ -817,3 +817,12 @@ div#talks h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     display: none;
 }
+
+.k-content a, .k-content nav#main li.current-tab a, .k-content nav#sub li.current-tab a {
+	color: white;
+	text-decoration: none;
+}
+
+.k-content a:hover, .k-content h2 {
+	color: white;
+}

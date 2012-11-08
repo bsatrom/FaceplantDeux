@@ -13,13 +13,15 @@
 	<section>
 		<h2 class="label label-green">Create Speaker Profile</h2>
 	</section>
+	<!-- (kd6) Add k-rtl class -->
 	<section id="speakerForm">
 		<fieldset>
 			<legend>Basic Info</legend>
 			<ul>
 				<li>
+					<!-- (kd1) Add accesskey to name -->
 					<label for="name">Name:</label>  
-					<input id="name" type="text" placeholder="ex. Hugo Reyes" class="k-input k-textbox" /> 
+					<input id="name" type="text" accesskey="n" placeholder="ex. Hugo Reyes" class="k-input k-textbox" /> 
 				</li>
 				<li>
 					<label for="email">Email:</label>  
@@ -30,12 +32,13 @@
 					<input id="twitter" type="text" placeholder="ex. hugoDHARMA" class="k-input k-textbox" /> 
 				</li>
 				<li>
-					<label for="blog">Twitter:</label> 
+					<label for="blog">Url:</label> 
 					<input id="blog" type="url" placeholder="ex. www.dharmadaily.com" class="k-input k-textbox" /> 
 				</li>
 				<li>
+					<!-- (kd2) Add accesskey to birthday -->
 					<label for="birthday">Birthday:</label>   
-					<input id="birthday" type="date" />
+					<input id="birthday" accesskey="b" type="date" />
 				</li>
 				<li>
 					<label for="preferredSessionTime">Preferred Session Time:</label>  
@@ -62,6 +65,7 @@
 		</fieldset>
 		<input type="button" value="Save" class="k-button" />
 		<input type="button" value="Reset" class="k-button" />
+		<!-- (kd7) Add RTL Button -->
 		<input type="button" id="toggleRTL" value="Activate RTL Support" class="k-button" />
 	</section>
 </div>
